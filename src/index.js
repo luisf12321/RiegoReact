@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Registro  from './components/Registro';
-import Login from './components/Login'
+import Login from './components/Login';
 import 'bootstrap/dist/css/bootstrap.css';
-import App from './App'
-
+import * as boootsIcon from 'react-icons'
+import App from './App';
+import './Styles/css/navbar.css'
 const container = document.getElementById('app')
 
 ReactDOM.render(
